@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.concats.cordova-plist-patches" version="0.0.1">
+    <name>Concats plist patches</name>
+    <description>Patches the info.plist for iOS to include flags currently not set by Meteor itself</description>
+    <license>MIT</license>
+    <keywords>concats,cordova,plist</keywords>
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
+        <dict>
+          <key>NSAllowsArbitraryLoads</key>
+          <true/>
+        </dict>
+      </config-file>
+    </platform>
+</plugin>

@@ -1,0 +1,28 @@
+{
+  "name": "com.concats.cordova-plist-patches",
+  "version": "0.0.1",
+  "description": "Patches the info.plist for iOS to include flags currently not set by Meteor itself",
+  "cordova": {
+    "id": "com.concats.cordova-plist-patches",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/concats/cordova-plist-patches.git"
+  },
+  "keywords": [
+    "concats",
+    "cordova",
+    "plist",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Tom Brückner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/concats/cordova-plist-patches/issues"
+  },
+  "homepage": "https://github.com/concats/cordova-plist-patches#readme"
+}
